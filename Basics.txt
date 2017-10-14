@@ -1,0 +1,19 @@
+Defined methods:
+
+- Console.Write("..."); -> Writes ... on the screen and keeps cursor on same line
+- Console.WriteLine("..."); -> Writes ... on the screen and continues to next line
+- Console.ReadLine();       -> Reads user input
+
+
+
+Data Types:
+
+- int -> Integer (ex: 1, 2, 256, 1024)
+- string -> String of characters (ex: "Joe", "Hello World")
+
+
+
+Comments:
+
+- // -> Comments 1 line of code
+- /* ... */ -> Comments a block of code
