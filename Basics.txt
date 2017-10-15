@@ -1,19 +1,59 @@
 Defined methods:
 
-- Console.Write("..."); -> Writes ... on the screen and keeps cursor on same line
+- Console.Write("...");     -> Writes ... on the screen and keeps cursor on same line
 - Console.WriteLine("..."); -> Writes ... on the screen and continues to next line
 - Console.ReadLine();       -> Reads user input
 
 
 
+
+
 Data Types:
 
-- int -> Integer (ex: 1, 2, 256, 1024)
+- int    -> Integer (ex: 1, 2, 256, 1024)
 - string -> String of characters (ex: "Joe", "Hello World")
+- char   -> One character
+
+
+
+
+
+Collections:
+
+- Array   -> Collection of primitive data types (int, string, ...)
+  ex: int[] intArray = new int[5];
+      intArray[0] = 2;
+      ...
+
+
+
+
+
+Flow Control:
+
+- if/else   -> If a certain condition is true, executes
+  ex: if ([CONDITION])
+      {...}
+      else if ([CONDITION])
+      {...}
+      else
+      {...}
+  
+  ex: string message = ([CONDITION]) ? "true" : "false";
+
+- for      -> For loop
+  ex: for(int i = 0; i < 10; i++)
+      { ... }
+
+- foreach  -> Iterates over a Collection
+  ex: foreach(String name in names)
+      { ... }
+
+
 
 
 
 Comments:
 
-- // -> Comments 1 line of code
+- //        -> Comments 1 line of code
 - /* ... */ -> Comments a block of code
