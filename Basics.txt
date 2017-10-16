@@ -1,8 +1,12 @@
 Defined methods:
 
+- Array.Reverse(...);       -> Reverses the elements inside an array
 - Console.Write("...");     -> Writes ... on the screen and keeps cursor on same line
 - Console.WriteLine("..."); -> Writes ... on the screen and continues to next line
 - Console.ReadLine();       -> Reads user input
+- String.Concat(...);       -> Concatenates the elements we pass
+- String.Format(...);       -> Formats a string the way we want it
+- [STRING].ToCharArray();   -> Creates an array of char with contents from the String
 
 
 
