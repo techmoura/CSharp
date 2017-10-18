@@ -1,22 +1,34 @@
 Defined methods:
 
 - Array.Reverse(...);       -> Reverses the elements inside an array
+- Console.Clear();          -> Clears the screen
 - Console.Write("...");     -> Writes ... on the screen and keeps cursor on same line
 - Console.WriteLine("..."); -> Writes ... on the screen and continues to next line
 - Console.ReadLine();       -> Reads user input
+- int.Parse([STRING]);      -> Converts a [STRING] element into an integer
 - String.Concat(...);       -> Concatenates the elements we pass
-- String.Format(...);       -> Formats a string the way we want it
 - [STRING].ToCharArray();   -> Creates an array of char with contents from the String
 
+
+
+
+Working with strings:
+
+- \                         -> Backslash operator allows to escape special characters like "\"", "\n", "\\"
+- String.Format();          -> Formats a string the way we want it (See the .NET docs to learn more)
+- StringBuilder             -> Use StringBuilder object instead of string type, when we want to do many changes to a string
 
 
 
 
 Data Types:
 
-- int    -> Integer (ex: 1, 2, 256, 1024)
-- string -> String of characters (ex: "Joe", "Hello World")
-- char   -> One character
+- int      -> Integer (ex: 1, 2, 256, 1024)
+- string   -> String of characters (ex: "Joe", "Hello World")
+- char     -> One character
+- bool     -> Boolean value (true or false)
+- DateTime -> Represents a DateTime object (instant in time)
+- TimeSpan -> Represents a TimeSpan object (interval in time)
 
 
 
@@ -35,7 +47,7 @@ Collections:
 
 Flow Control:
 
-- if/else   -> If a certain condition is true, executes
+- if/else          -> If a certain condition is true, executes
   ex: if ([CONDITION])
       {...}
       else if ([CONDITION])
@@ -45,13 +57,22 @@ Flow Control:
   
   ex: string message = ([CONDITION]) ? "true" : "false";
 
-- for      -> For loop
+- for             -> For loop
   ex: for(int i = 0; i < 10; i++)
       { ... }
 
-- foreach  -> Iterates over a Collection
+- foreach         -> Iterates over a Collection
   ex: foreach(String name in names)
       { ... }
+
+- while           -> While loop
+  ex: while(true)
+      { ... }
+
+- do ... while   -> While loop that executes at least one time
+  ex: do
+      { ... }
+      while (true)
 
 
 
